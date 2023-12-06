@@ -1,69 +1,88 @@
 /* General styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
 }
 
 header {
   background-color: #333;
   color: white;
-  padding: 20px;
+  padding: 30px 0;
   text-align: center;
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 h1 {
-  font-size: 2em;
-  margin-bottom: 5px;
+  font-size: 2.5em;
+  margin: 0;
 }
 
-header img {
+img {
   border-radius: 50%;
-  margin-bottom: 10px;
 }
 
-header a {
-  color: white;
+.header-links a {
   text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border: 2px solid #fff;
+  border-radius: 5px;
   margin-right: 10px;
+  transition: background-color 0.3s ease;
 }
 
-header a:hover {
-  text-decoration: underline;
+.header-links a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.intro {
+  font-size: 1.1em;
+  margin-top: 10px;
 }
 
 .container {
   display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .content {
-  width: 70%;
-  padding: 20px;
+  width: 65%;
 }
 
-.content h1 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
+h1, h2 {
+  color: #333;
 }
 
-.content h2 {
-  font-size: 1.2em;
-  margin-bottom: 10px;
+.description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #444;
 }
 
 .table-of-contents {
-  position: fixed;
-  top: 50px;
-  right: 0;
-  width: 8%;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-left: 1px solid #ddd;
+  width: 30%;
+  position: sticky;
+  top: 100px;
 }
 
 .table-of-contents h2 {
-  font-size: 1.2em;
-  margin-bottom: 15px;
+  font-size: 1.4em;
   color: #333;
+  margin-bottom: 20px;
 }
 
 .table-of-contents nav ul {
@@ -78,19 +97,28 @@ header a:hover {
 .table-of-contents nav ul li a {
   text-decoration: none;
   display: inline-block;
-  padding: 8px 12px;
-  background-color: #ddd;
+  padding: 8px 15px;
+  background-color: #eee;
   color: #333;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .table-of-contents nav ul li a:hover {
-  background-color: #aaa;
-  color: #fff;
+  background-color: #ddd;
+  color: #000;
 }
 
-.table-of-contents nav ul li a:active {
-  transform: translateY(1px);
-  box-shadow: 0 1px #666;
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
+.logo img {
+  max-width: 80px;
+  margin-right: 15px;
+}
+
+.logo-text {
+  font-size: 1.1em

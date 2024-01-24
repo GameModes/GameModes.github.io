@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_051f465a70c5df3d639f949dcbbe8add {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_051f465a70c5df3d639f949dcbbe8add" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_051f465a70c5df3d639f949dcbbe8add = L.map(
+                "map_051f465a70c5df3d639f949dcbbe8add",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47d8637dcf2aee2fff1a4a1202a29606 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_47d8637dcf2aee2fff1a4a1202a29606.addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var marker_ba406426ca9ad0ef27254c7202cdb020 = L.marker(
+                [-35.293055555, 149.126944444],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_9a9a54d3d80fa5427ceeb7b7d0bafdb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba406426ca9ad0ef27254c7202cdb020.setIcon(icon_9a9a54d3d80fa5427ceeb7b7d0bafdb7);
+        
+    
+        var popup_d5d3581fc8043500990d939a8e5bc912 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_751b648a7789f36114eb0551551418c2 = $(`<div id="html_751b648a7789f36114eb0551551418c2" style="width: 100.0%; height: 100.0%;">British: 11 wins German: 9 wins Finnish: 5 wins Brazilian: 3 wins Austrian: 2 wins</div>`)[0];
+                popup_d5d3581fc8043500990d939a8e5bc912.setContent(html_751b648a7789f36114eb0551551418c2);
+            
+        
+
+        marker_ba406426ca9ad0ef27254c7202cdb020.bindPopup(popup_d5d3581fc8043500990d939a8e5bc912)
+        ;
+
+        
+    
+    
+            var marker_c9b9a08d79ccfe1068c5888f0112dde9 = L.marker(
+                [3.147777777, 101.695277777],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_f6b620a1c33526094aad8991133710b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_c9b9a08d79ccfe1068c5888f0112dde9.setIcon(icon_f6b620a1c33526094aad8991133710b1);
+        
+    
+        var popup_09957e8474ee39eee4f1becd4c3d5423 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_4aafd5791ec0a9a0abe6afdc55d0a1a0 = $(`<div id="html_4aafd5791ec0a9a0abe6afdc55d0a1a0" style="width: 100.0%; height: 100.0%;">German: 8 wins British: 3 wins Spanish: 3 wins Finnish: 2 wins Italian: 1 wins</div>`)[0];
+                popup_09957e8474ee39eee4f1becd4c3d5423.setContent(html_4aafd5791ec0a9a0abe6afdc55d0a1a0);
+            
+        
+
+        marker_c9b9a08d79ccfe1068c5888f0112dde9.bindPopup(popup_09957e8474ee39eee4f1becd4c3d5423)
+        ;
+
+        
+    
+    
+            var marker_058362c4ed1db40e62ec104892bc13fa = L.marker(
+                [39.90403, 116.407526],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_22527d640d7ee38ed2e4953f2478c889 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_058362c4ed1db40e62ec104892bc13fa.setIcon(icon_22527d640d7ee38ed2e4953f2478c889);
+        
+    
+        var popup_8fb13b4f6f9f4b6567238c1b476dba02 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_0815cf715db138f0becec11e6c30d437 = $(`<div id="html_0815cf715db138f0becec11e6c30d437" style="width: 100.0%; height: 100.0%;">British: 6 wins German: 5 wins Spanish: 2 wins Finnish: 1 wins Brazilian: 1 wins</div>`)[0];
+                popup_8fb13b4f6f9f4b6567238c1b476dba02.setContent(html_0815cf715db138f0becec11e6c30d437);
+            
+        
+
+        marker_058362c4ed1db40e62ec104892bc13fa.bindPopup(popup_8fb13b4f6f9f4b6567238c1b476dba02)
+        ;
+
+        
+    
+    
+            var marker_a579b204e0fb5ab77783fcb5abbf500c = L.marker(
+                [26.225, 50.5775],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_61e34b5ea716e3d2a2d43e3288be180a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a579b204e0fb5ab77783fcb5abbf500c.setIcon(icon_61e34b5ea716e3d2a2d43e3288be180a);
+        
+    
+        var popup_73eb1ad55e9b104dc5f04629b84e8537 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_f165304e422e61ba316ac537c625094f = $(`<div id="html_f165304e422e61ba316ac537c625094f" style="width: 100.0%; height: 100.0%;">British: 6 wins German: 5 wins Spanish: 3 wins Brazilian: 2 wins Mexican: 1 wins</div>`)[0];
+                popup_73eb1ad55e9b104dc5f04629b84e8537.setContent(html_f165304e422e61ba316ac537c625094f);
+            
+        
+
+        marker_a579b204e0fb5ab77783fcb5abbf500c.bindPopup(popup_73eb1ad55e9b104dc5f04629b84e8537)
+        ;
+
+        
+    
+    
+            var marker_027232f17ec488e153758b9bd9b90612 = L.marker(
+                [43.73097, 7.424815],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_df8bee74c2d0598068f58e109a69b63c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_027232f17ec488e153758b9bd9b90612.setIcon(icon_df8bee74c2d0598068f58e109a69b63c);
+        
+    
+        var popup_92184dc5746fce043c5ea1d3264cb504 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_b0fb92ca74a7a9f0cfb18eb299507463 = $(`<div id="html_b0fb92ca74a7a9f0cfb18eb299507463" style="width: 100.0%; height: 100.0%;">British: 17 wins German: 10 wins French: 9 wins Brazilian: 6 wins Australian: 4 wins</div>`)[0];
+                popup_92184dc5746fce043c5ea1d3264cb504.setContent(html_b0fb92ca74a7a9f0cfb18eb299507463);
+            
+        
+
+        marker_027232f17ec488e153758b9bd9b90612.bindPopup(popup_92184dc5746fce043c5ea1d3264cb504)
+        ;
+
+        
+    
+    
+            var marker_85f8f5e9a94ffd971a7d4399d06ebc4c = L.marker(
+                [39.93576, 32.83869],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_03ff82a0169873c9da17e0457a6f2937 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_85f8f5e9a94ffd971a7d4399d06ebc4c.setIcon(icon_03ff82a0169873c9da17e0457a6f2937);
+        
+    
+        var popup_79b03975d9cf9b07f5522f753a442329 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_782af14d4a96be325cbc8f7e8b109591 = $(`<div id="html_782af14d4a96be325cbc8f7e8b109591" style="width: 100.0%; height: 100.0%;">British: 3 wins Brazilian: 3 wins Finnish: 2 wins German: 1 wins</div>`)[0];
+                popup_79b03975d9cf9b07f5522f753a442329.setContent(html_782af14d4a96be325cbc8f7e8b109591);
+            
+        
+
+        marker_85f8f5e9a94ffd971a7d4399d06ebc4c.bindPopup(popup_79b03975d9cf9b07f5522f753a442329)
+        ;
+
+        
+    
+    
+            var marker_e246a897b47f8ae4d6eb978a567bfd5f = L.marker(
+                [51.507222222, -0.1275],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_3f3848a56d130c4b982a3c947fc6b8ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e246a897b47f8ae4d6eb978a567bfd5f.setIcon(icon_3f3848a56d130c4b982a3c947fc6b8ae);
+        
+    
+        var popup_daf504252e02d057e92bf933c5e08bc5 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_47f507294577657deb2dae7c64066a45 = $(`<div id="html_47f507294577657deb2dae7c64066a45" style="width: 100.0%; height: 100.0%;">British: 29 wins German: 6 wins Brazilian: 6 wins French: 5 wins Australian: 5 wins</div>`)[0];
+                popup_daf504252e02d057e92bf933c5e08bc5.setContent(html_47f507294577657deb2dae7c64066a45);
+            
+        
+
+        marker_e246a897b47f8ae4d6eb978a567bfd5f.bindPopup(popup_daf504252e02d057e92bf933c5e08bc5)
+        ;
+
+        
+    
+    
+            var marker_20426b85b8fe040e8be06f1826d90cc6 = L.marker(
+                [52.516666666, 13.383333333],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_71c83f1ba495dcb6eea4fcc2d14e9385 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20426b85b8fe040e8be06f1826d90cc6.setIcon(icon_71c83f1ba495dcb6eea4fcc2d14e9385);
+        
+    
+        var popup_b4db19f0b55706dabd8085fdf880e21f = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_ef70c63f50d60dfa26359db28d4ff3a5 = $(`<div id="html_ef70c63f50d60dfa26359db28d4ff3a5" style="width: 100.0%; height: 100.0%;">British: 19 wins German: 13 wins Brazilian: 7 wins Spanish: 5 wins French: 5 wins</div>`)[0];
+                popup_b4db19f0b55706dabd8085fdf880e21f.setContent(html_ef70c63f50d60dfa26359db28d4ff3a5);
+            
+        
+
+        marker_20426b85b8fe040e8be06f1826d90cc6.bindPopup(popup_b4db19f0b55706dabd8085fdf880e21f)
+        ;
+
+        
+    
+    
+            var marker_df10bb047421d9c35c71784657266da5 = L.marker(
+                [47.498333333, 19.040833333],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_24105f7c524ee7e5dc4d112140e91080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df10bb047421d9c35c71784657266da5.setIcon(icon_24105f7c524ee7e5dc4d112140e91080);
+        
+    
+        var popup_5dfde63c0b4d0cb93aa7bae53f9513f8 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_371d4b0455e12c6878073a781a008c43 = $(`<div id="html_371d4b0455e12c6878073a781a008c43" style="width: 100.0%; height: 100.0%;">British: 13 wins German: 6 wins Brazilian: 6 wins Finnish: 4 wins Canadian: 2 wins</div>`)[0];
+                popup_5dfde63c0b4d0cb93aa7bae53f9513f8.setContent(html_371d4b0455e12c6878073a781a008c43);
+            
+        
+
+        marker_df10bb047421d9c35c71784657266da5.bindPopup(popup_5dfde63c0b4d0cb93aa7bae53f9513f8)
+        ;
+
+        
+    
+    
+            var marker_b8e7978cd2cda43c30b01a4966d4f3f5 = L.marker(
+                [40.416944444, -3.703333333],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_6ea53bd0644d807dfe533f9ad86010e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8e7978cd2cda43c30b01a4966d4f3f5.setIcon(icon_6ea53bd0644d807dfe533f9ad86010e3);
+        
+    
+        var popup_bda576bc09629ded3c5acb481abf3b51 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_685ee8ec1f5276c2aa44ee67aed4dedf = $(`<div id="html_685ee8ec1f5276c2aa44ee67aed4dedf" style="width: 100.0%; height: 100.0%;">British: 16 wins German: 11 wins Brazilian: 7 wins Finnish: 6 wins French: 4 wins</div>`)[0];
+                popup_bda576bc09629ded3c5acb481abf3b51.setContent(html_685ee8ec1f5276c2aa44ee67aed4dedf);
+            
+        
+
+        marker_b8e7978cd2cda43c30b01a4966d4f3f5.bindPopup(popup_bda576bc09629ded3c5acb481abf3b51)
+        ;
+
+        
+    
+    
+            var marker_84d841f108e4ac703d369ca028afa4b1 = L.marker(
+                [50.846666666, 4.351666666],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_15f45634ee16e782b79835b6c6f6aecf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84d841f108e4ac703d369ca028afa4b1.setIcon(icon_15f45634ee16e782b79835b6c6f6aecf);
+        
+    
+        var popup_f91531b0f7c509dbbaaffb277d7fc31a = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_b8449093db93473d9807828f9b4b6953 = $(`<div id="html_b8449093db93473d9807828f9b4b6953" style="width: 100.0%; height: 100.0%;">British: 18 wins German: 10 wins Brazilian: 8 wins Finnish: 5 wins Argentine: 4 wins</div>`)[0];
+                popup_f91531b0f7c509dbbaaffb277d7fc31a.setContent(html_b8449093db93473d9807828f9b4b6953);
+            
+        
+
+        marker_84d841f108e4ac703d369ca028afa4b1.bindPopup(popup_f91531b0f7c509dbbaaffb277d7fc31a)
+        ;
+
+        
+    
+    
+            var marker_202ee2c7cb3fee539d6824606d952740 = L.marker(
+                [41.893055555, 12.482777777],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_9bd1d5dc11d20b5f9164dcc9c199ea6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_202ee2c7cb3fee539d6824606d952740.setIcon(icon_9bd1d5dc11d20b5f9164dcc9c199ea6e);
+        
+    
+        var popup_22c35285e3a0753888799984aab9a8cd = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_3d07e47ea64e43692fb8bf30ee95cba1 = $(`<div id="html_3d07e47ea64e43692fb8bf30ee95cba1" style="width: 100.0%; height: 100.0%;">British: 23 wins Brazilian: 10 wins German: 10 wins French: 5 wins Dutch: 3 wins</div>`)[0];
+                popup_22c35285e3a0753888799984aab9a8cd.setContent(html_3d07e47ea64e43692fb8bf30ee95cba1);
+            
+        
+
+        marker_202ee2c7cb3fee539d6824606d952740.bindPopup(popup_22c35285e3a0753888799984aab9a8cd)
+        ;
+
+        
+    
+    
+            var marker_91f816ea50699a788080b7792b7c5899 = L.marker(
+                [1.3, 103.8],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_eef0f9ec2ac299c9fbd9630ab89a54d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_91f816ea50699a788080b7792b7c5899.setIcon(icon_eef0f9ec2ac299c9fbd9630ab89a54d4);
+        
+    
+        var popup_37305998ed8a6e9963df37102a8a65ef = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_b550cd9a9427af30f62fca214307c207 = $(`<div id="html_b550cd9a9427af30f62fca214307c207" style="width: 100.0%; height: 100.0%;">German: 5 wins British: 4 wins Spanish: 2 wins Mexican: 1 wins</div>`)[0];
+                popup_37305998ed8a6e9963df37102a8a65ef.setContent(html_b550cd9a9427af30f62fca214307c207);
+            
+        
+
+        marker_91f816ea50699a788080b7792b7c5899.bindPopup(popup_37305998ed8a6e9963df37102a8a65ef)
+        ;
+
+        
+    
+    
+            var marker_fb199d25a435108975f2311e137343c8 = L.marker(
+                [35.689444444, 139.691666666],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_5b22836fc518c52051cd578c0708a31e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_fb199d25a435108975f2311e137343c8.setIcon(icon_5b22836fc518c52051cd578c0708a31e);
+        
+    
+        var popup_a45ed30f52f5dd39f8c38e0a4f0bd4a7 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_975ab1e80509c668600d2ba9f9afd011 = $(`<div id="html_975ab1e80509c668600d2ba9f9afd011" style="width: 100.0%; height: 100.0%;">German: 13 wins British: 8 wins Finnish: 4 wins Brazilian: 4 wins Spanish: 2 wins</div>`)[0];
+                popup_a45ed30f52f5dd39f8c38e0a4f0bd4a7.setContent(html_975ab1e80509c668600d2ba9f9afd011);
+            
+        
+
+        marker_fb199d25a435108975f2311e137343c8.bindPopup(popup_a45ed30f52f5dd39f8c38e0a4f0bd4a7)
+        ;
+
+        
+    
+    
+            var marker_8bde0da41c6c65e1dab34d8903d40631 = L.marker(
+                [-15.793888888, -47.882777777],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_53cf8c5d41f8850fab70ea26b3e21bbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_8bde0da41c6c65e1dab34d8903d40631.setIcon(icon_53cf8c5d41f8850fab70ea26b3e21bbd);
+        
+    
+        var popup_8b37e00cbb6a982f21823c6d52f63915 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_1588723c47db06594408e901cd570127 = $(`<div id="html_1588723c47db06594408e901cd570127" style="width: 100.0%; height: 100.0%;">Brazilian: 9 wins German: 9 wins British: 9 wins French: 8 wins Finnish: 3 wins</div>`)[0];
+                popup_8b37e00cbb6a982f21823c6d52f63915.setContent(html_1588723c47db06594408e901cd570127);
+            
+        
+
+        marker_8bde0da41c6c65e1dab34d8903d40631.bindPopup(popup_8b37e00cbb6a982f21823c6d52f63915)
+        ;
+
+        
+    
+    
+            var marker_cda520f4cf4e4b7e1084f03985484f2b = L.marker(
+                [24.451111111, 54.396944444],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_6589f2e66a3bf4fc62e9dcbebc1c9c40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cda520f4cf4e4b7e1084f03985484f2b.setIcon(icon_6589f2e66a3bf4fc62e9dcbebc1c9c40);
+        
+    
+        var popup_a0f4bd94b0558c65c6c697e3393cacb9 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_2ed99c63265aa38114aaf4d705f8d3b3 = $(`<div id="html_2ed99c63265aa38114aaf4d705f8d3b3" style="width: 100.0%; height: 100.0%;">British: 6 wins Dutch: 4 wins German: 3 wins Finnish: 2 wins</div>`)[0];
+                popup_a0f4bd94b0558c65c6c697e3393cacb9.setContent(html_2ed99c63265aa38114aaf4d705f8d3b3);
+            
+        
+
+        marker_cda520f4cf4e4b7e1084f03985484f2b.bindPopup(popup_a0f4bd94b0558c65c6c697e3393cacb9)
+        ;
+
+        
+    
+    
+            var marker_a91f8949a77e1411780b9130a8eecd2e = L.marker(
+                [45.424722222, -75.695],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_a79497bc7b01753886218aa81dc22452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a91f8949a77e1411780b9130a8eecd2e.setIcon(icon_a79497bc7b01753886218aa81dc22452);
+        
+    
+        var popup_04e1efe4be800c604d39434f90eb6d8a = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_f779f3f618fc5a4f11ba8260446a7818 = $(`<div id="html_f779f3f618fc5a4f11ba8260446a7818" style="width: 100.0%; height: 100.0%;">British: 13 wins German: 10 wins Brazilian: 6 wins French: 4 wins Belgian: 3 wins</div>`)[0];
+                popup_04e1efe4be800c604d39434f90eb6d8a.setContent(html_f779f3f618fc5a4f11ba8260446a7818);
+            
+        
+
+        marker_a91f8949a77e1411780b9130a8eecd2e.bindPopup(popup_04e1efe4be800c604d39434f90eb6d8a)
+        ;
+
+        
+    
+    
+            var marker_25bce9cbe29db88c06d5e4e7b0a10466 = L.marker(
+                [48.856666666, 2.352222222],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_8dbf282ca69d568ad24d5fa4b6f5f8ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25bce9cbe29db88c06d5e4e7b0a10466.setIcon(icon_8dbf282ca69d568ad24d5fa4b6f5f8ca);
+        
+    
+        var popup_5bfc30f55265758cb2c451535117e893 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_8d2097c99d684febdf50ad075d2ca70e = $(`<div id="html_8d2097c99d684febdf50ad075d2ca70e" style="width: 100.0%; height: 100.0%;">British: 17 wins German: 10 wins French: 8 wins American: 4 wins Austrian: 3 wins</div>`)[0];
+                popup_5bfc30f55265758cb2c451535117e893.setContent(html_8d2097c99d684febdf50ad075d2ca70e);
+            
+        
+
+        marker_25bce9cbe29db88c06d5e4e7b0a10466.bindPopup(popup_5bfc30f55265758cb2c451535117e893)
+        ;
+
+        
+    
+    
+            var marker_ec7bb572a32611f4ff3ed702090f539e = L.marker(
+                [38.895, -77.036666666],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_1b8d5556109470e1676114be5d0c586d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec7bb572a32611f4ff3ed702090f539e.setIcon(icon_1b8d5556109470e1676114be5d0c586d);
+        
+    
+        var popup_ed8cb5598fedc501297f335b39e086c0 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_2e7ee9731ca10a2775dd1cf0b134e496 = $(`<div id="html_2e7ee9731ca10a2775dd1cf0b134e496" style="width: 100.0%; height: 100.0%;">British: 21 wins American: 11 wins Brazilian: 9 wins German: 6 wins Finnish: 5 wins</div>`)[0];
+                popup_ed8cb5598fedc501297f335b39e086c0.setContent(html_2e7ee9731ca10a2775dd1cf0b134e496);
+            
+        
+
+        marker_ec7bb572a32611f4ff3ed702090f539e.bindPopup(popup_ed8cb5598fedc501297f335b39e086c0)
+        ;
+
+        
+    
+    
+            var marker_d3955d425969c8b44852e0e7cf6bde28 = L.marker(
+                [43.932011111, 12.44845],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_919a492c0d45aa63c4809d573c8817b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_d3955d425969c8b44852e0e7cf6bde28.setIcon(icon_919a492c0d45aa63c4809d573c8817b3);
+        
+    
+        var popup_a5191ba5acc1bd32d9d6b0d24e7fd3b5 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_578fc425c79b810ba52658c6f0d6e5c3 = $(`<div id="html_578fc425c79b810ba52658c6f0d6e5c3" style="width: 100.0%; height: 100.0%;">German: 8 wins British: 5 wins French: 5 wins Brazilian: 4 wins Spanish: 2 wins</div>`)[0];
+                popup_a5191ba5acc1bd32d9d6b0d24e7fd3b5.setContent(html_578fc425c79b810ba52658c6f0d6e5c3);
+            
+        
+
+        marker_d3955d425969c8b44852e0e7cf6bde28.bindPopup(popup_a5191ba5acc1bd32d9d6b0d24e7fd3b5)
+        ;
+
+        
+    
+    
+            var marker_f5278bbc1dce8485fcb68a573fdd311f = L.marker(
+                [48.208333333, 16.3725],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_6cf2b43cc75cb5bc4533441f9bb95b6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5278bbc1dce8485fcb68a573fdd311f.setIcon(icon_6cf2b43cc75cb5bc4533441f9bb95b6d);
+        
+    
+        var popup_407e6798203c495007b80bb8cf0c6255 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_0d87c79403e88b4fe2f6a8f73e1bb0eb = $(`<div id="html_0d87c79403e88b4fe2f6a8f73e1bb0eb" style="width: 100.0%; height: 100.0%;">British: 6 wins French: 5 wins German: 4 wins Finnish: 4 wins Dutch: 4 wins</div>`)[0];
+                popup_407e6798203c495007b80bb8cf0c6255.setContent(html_0d87c79403e88b4fe2f6a8f73e1bb0eb);
+            
+        
+
+        marker_f5278bbc1dce8485fcb68a573fdd311f.bindPopup(popup_407e6798203c495007b80bb8cf0c6255)
+        ;
+
+        
+    
+    
+            var marker_e174d4283cf1dd6e937d167558dbb070 = L.marker(
+                [-34.599722222, -58.381944444],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_9878b03424a4cf1f72aa7fcdf2d17688 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e174d4283cf1dd6e937d167558dbb070.setIcon(icon_9878b03424a4cf1f72aa7fcdf2d17688);
+        
+    
+        var popup_2f1a16a446572bc9b305a42aaca9e1b1 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_050b6cc0104d7c7280a697d86c929b5d = $(`<div id="html_050b6cc0104d7c7280a697d86c929b5d" style="width: 100.0%; height: 100.0%;">British: 4 wins Brazilian: 3 wins Argentine: 3 wins New Zealander: 2 wins Italian: 2 wins</div>`)[0];
+                popup_2f1a16a446572bc9b305a42aaca9e1b1.setContent(html_050b6cc0104d7c7280a697d86c929b5d);
+            
+        
+
+        marker_e174d4283cf1dd6e937d167558dbb070.bindPopup(popup_2f1a16a446572bc9b305a42aaca9e1b1)
+        ;
+
+        
+    
+    
+            var marker_7fbd5ae3ea80114da31fc01c84d962bb = L.marker(
+                [49.610555555, 6.132777777],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_3fb1fd2a4aed257b3088dad68d66249a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_7fbd5ae3ea80114da31fc01c84d962bb.setIcon(icon_3fb1fd2a4aed257b3088dad68d66249a);
+        
+    
+        var popup_d93892cec93e88a1a52da60afaf66793 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_3751dd5388feb816a7dc5ce26b88bfd8 = $(`<div id="html_3751dd5388feb816a7dc5ce26b88bfd8" style="width: 100.0%; height: 100.0%;">Finnish: 1 wins Canadian: 1 wins</div>`)[0];
+                popup_d93892cec93e88a1a52da60afaf66793.setContent(html_3751dd5388feb816a7dc5ce26b88bfd8);
+            
+        
+
+        marker_7fbd5ae3ea80114da31fc01c84d962bb.bindPopup(popup_d93892cec93e88a1a52da60afaf66793)
+        ;
+
+        
+    
+    
+            var marker_18c709c934810f065434ae1e06c6efed = L.marker(
+                [38.708042, -9.139016],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_5280ed317ce94dd31587793d41242fcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18c709c934810f065434ae1e06c6efed.setIcon(icon_5280ed317ce94dd31587793d41242fcb);
+        
+    
+        var popup_7ecc3482b48404f1ff2e5d175bec645b = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_4d3df310cf2d7cc88c30c015a0f85380 = $(`<div id="html_4d3df310cf2d7cc88c30c015a0f85380" style="width: 100.0%; height: 100.0%;">British: 9 wins French: 3 wins Canadian: 1 wins German: 1 wins Italian: 1 wins</div>`)[0];
+                popup_7ecc3482b48404f1ff2e5d175bec645b.setContent(html_4d3df310cf2d7cc88c30c015a0f85380);
+            
+        
+
+        marker_18c709c934810f065434ae1e06c6efed.bindPopup(popup_7ecc3482b48404f1ff2e5d175bec645b)
+        ;
+
+        
+    
+    
+            var marker_14f085dae1b6fad083f665344ce8aaeb = L.marker(
+                [-25.746388888, 28.188055555],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_3da19c230c00c2528c3a3587b261426e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14f085dae1b6fad083f665344ce8aaeb.setIcon(icon_3da19c230c00c2528c3a3587b261426e);
+        
+    
+        var popup_2af1a860106f4bc52ae92dd983f6a5ad = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_24efdeb829081bd2abbd4f34f1eaeba3 = $(`<div id="html_24efdeb829081bd2abbd4f34f1eaeba3" style="width: 100.0%; height: 100.0%;">British: 8 wins French: 3 wins Austrian: 3 wins Italian: 1 wins Canadian: 1 wins</div>`)[0];
+                popup_2af1a860106f4bc52ae92dd983f6a5ad.setContent(html_24efdeb829081bd2abbd4f34f1eaeba3);
+            
+        
+
+        marker_14f085dae1b6fad083f665344ce8aaeb.bindPopup(popup_2af1a860106f4bc52ae92dd983f6a5ad)
+        ;
+
+        
+    
+    
+            var marker_b0a1fe39969058427ecaae6f62fc1cc3 = L.marker(
+                [19.419444444, -99.145555555],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_4375de85f8bb7b2dba41f820f6ec288e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0a1fe39969058427ecaae6f62fc1cc3.setIcon(icon_4375de85f8bb7b2dba41f820f6ec288e);
+        
+    
+        var popup_30fcca2d307d37c414ad58d0020e6efa = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_98d38b905036d076ff1dd7a7400b1e4a = $(`<div id="html_98d38b905036d076ff1dd7a7400b1e4a" style="width: 100.0%; height: 100.0%;">British: 8 wins Dutch: 5 wins French: 2 wins American: 2 wins Italian: 1 wins</div>`)[0];
+                popup_30fcca2d307d37c414ad58d0020e6efa.setContent(html_98d38b905036d076ff1dd7a7400b1e4a);
+            
+        
+
+        marker_b0a1fe39969058427ecaae6f62fc1cc3.bindPopup(popup_30fcca2d307d37c414ad58d0020e6efa)
+        ;
+
+        
+    
+    
+            var marker_3fff29fbb8fb51d6db97f1d8dba1d18d = L.marker(
+                [37.56, 126.99],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_29f376f9dcae7a2e7a53e8a65abbb986 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_3fff29fbb8fb51d6db97f1d8dba1d18d.setIcon(icon_29f376f9dcae7a2e7a53e8a65abbb986);
+        
+    
+        var popup_74eed87981f90318989da8174fd93177 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_2001a4d3fff8aa461951f8ee5f04ddd7 = $(`<div id="html_2001a4d3fff8aa461951f8ee5f04ddd7" style="width: 100.0%; height: 100.0%;">German: 3 wins Spanish: 1 wins</div>`)[0];
+                popup_74eed87981f90318989da8174fd93177.setContent(html_2001a4d3fff8aa461951f8ee5f04ddd7);
+            
+        
+
+        marker_3fff29fbb8fb51d6db97f1d8dba1d18d.bindPopup(popup_74eed87981f90318989da8174fd93177)
+        ;
+
+        
+    
+    
+            var marker_5eb6c987066430e71d626f043330f804 = L.marker(
+                [52.372777777, 4.893611111],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_11a5f70adf49554430e769d8e7079707 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5eb6c987066430e71d626f043330f804.setIcon(icon_11a5f70adf49554430e769d8e7079707);
+        
+    
+        var popup_e6bdff53b8a27ac08f05902a5c149980 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_c33c0c323b342c4369ef8b5edbb061bb = $(`<div id="html_c33c0c323b342c4369ef8b5edbb061bb" style="width: 100.0%; height: 100.0%;">British: 11 wins French: 5 wins Austrian: 4 wins Australian: 2 wins Italian: 2 wins</div>`)[0];
+                popup_e6bdff53b8a27ac08f05902a5c149980.setContent(html_c33c0c323b342c4369ef8b5edbb061bb);
+            
+        
+
+        marker_5eb6c987066430e71d626f043330f804.bindPopup(popup_e6bdff53b8a27ac08f05902a5c149980)
+        ;
+
+        
+    
+    
+            var marker_335e7747a2ae736897ad6197330491dd = L.marker(
+                [46.94798, 7.44743],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_597549f97264b52f3ae6669b4c8af79c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_335e7747a2ae736897ad6197330491dd.setIcon(icon_597549f97264b52f3ae6669b4c8af79c);
+        
+    
+        var popup_edd7f976ac8e2546518848fb50c86843 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_199714da8edd7204a1814e2211ef90fd = $(`<div id="html_199714da8edd7204a1814e2211ef90fd" style="width: 100.0%; height: 100.0%;">Argentine: 2 wins Italian: 2 wins Finnish: 1 wins</div>`)[0];
+                popup_edd7f976ac8e2546518848fb50c86843.setContent(html_199714da8edd7204a1814e2211ef90fd);
+            
+        
+
+        marker_335e7747a2ae736897ad6197330491dd.bindPopup(popup_edd7f976ac8e2546518848fb50c86843)
+        ;
+
+        
+    
+    
+            var marker_62a8c720d0b05e87a89e3e55ffdda0ec = L.marker(
+                [59.329444444, 18.068611111],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_4cfbfc45a2301f781b469b7d47b8b809 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_62a8c720d0b05e87a89e3e55ffdda0ec.setIcon(icon_4cfbfc45a2301f781b469b7d47b8b809);
+        
+    
+        var popup_3ab960d6593c35608cf35b83d9af43c2 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_22d39ea90282d2bf5ef0810b2f7b69d2 = $(`<div id="html_22d39ea90282d2bf5ef0810b2f7b69d2" style="width: 100.0%; height: 100.0%;">Austrian: 2 wins South African: 2 wins French: 1 wins New Zealander: 1 wins</div>`)[0];
+                popup_3ab960d6593c35608cf35b83d9af43c2.setContent(html_22d39ea90282d2bf5ef0810b2f7b69d2);
+            
+        
+
+        marker_62a8c720d0b05e87a89e3e55ffdda0ec.bindPopup(popup_3ab960d6593c35608cf35b83d9af43c2)
+        ;
+
+        
+    
+    
+            var marker_c55f91247ed4ca1b6c4cffc508aeef71 = L.marker(
+                [34.025277777, -6.836111111],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_b14e800245e4caac6183b49afd6112a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c55f91247ed4ca1b6c4cffc508aeef71.setIcon(icon_b14e800245e4caac6183b49afd6112a6);
+        
+    
+        var popup_5d866f4b60928ee4ab55542a6d06a8e4 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_5bcc2a187cf5b75f56cdabdd2014669e = $(`<div id="html_5bcc2a187cf5b75f56cdabdd2014669e" style="width: 100.0%; height: 100.0%;">British: 1 wins</div>`)[0];
+                popup_5d866f4b60928ee4ab55542a6d06a8e4.setContent(html_5bcc2a187cf5b75f56cdabdd2014669e);
+            
+        
+
+        marker_c55f91247ed4ca1b6c4cffc508aeef71.bindPopup(popup_5d866f4b60928ee4ab55542a6d06a8e4)
+        ;
+
+        
+    
+    
+            var marker_a6e4127a0d014cf8425955dc8760dbca = L.marker(
+                [28.613888888, 77.208888888],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_ca7c562d16c8f9a41f9c7a8f57ee2041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_a6e4127a0d014cf8425955dc8760dbca.setIcon(icon_ca7c562d16c8f9a41f9c7a8f57ee2041);
+        
+    
+        var popup_795a2ccf71d16ddfe9c0f7aec1e67d25 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_6e60ee06a3bac5ad6b956e49e0b99532 = $(`<div id="html_6e60ee06a3bac5ad6b956e49e0b99532" style="width: 100.0%; height: 100.0%;">German: 3 wins</div>`)[0];
+                popup_795a2ccf71d16ddfe9c0f7aec1e67d25.setContent(html_6e60ee06a3bac5ad6b956e49e0b99532);
+            
+        
+
+        marker_a6e4127a0d014cf8425955dc8760dbca.bindPopup(popup_795a2ccf71d16ddfe9c0f7aec1e67d25)
+        ;
+
+        
+    
+    
+            var marker_572b01c33116972c2aaa662306b204b5 = L.marker(
+                [55.755833333, 37.617777777],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_893497e22583f5418c617fc6407f7bb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_572b01c33116972c2aaa662306b204b5.setIcon(icon_893497e22583f5418c617fc6407f7bb0);
+        
+    
+        var popup_3fc3204208833bfc5611f6c61e383f67 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_ce6a3131b040fb955657e2e7b5ac2c8a = $(`<div id="html_ce6a3131b040fb955657e2e7b5ac2c8a" style="width: 100.0%; height: 100.0%;">British: 5 wins Finnish: 2 wins German: 1 wins</div>`)[0];
+                popup_3fc3204208833bfc5611f6c61e383f67.setContent(html_ce6a3131b040fb955657e2e7b5ac2c8a);
+            
+        
+
+        marker_572b01c33116972c2aaa662306b204b5.bindPopup(popup_3fc3204208833bfc5611f6c61e383f67)
+        ;
+
+        
+    
+    
+            var marker_41841beeabf3d94d7e3a8104ec6b8b2c = L.marker(
+                [40.366655555, 49.835183333],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_17128603f8030c354db067b3d496e1e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41841beeabf3d94d7e3a8104ec6b8b2c.setIcon(icon_17128603f8030c354db067b3d496e1e1);
+        
+    
+        var popup_276d38d729b07c74b51b304d78574e1a = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_1e3c24e052a252df06c42544f8a09111 = $(`<div id="html_1e3c24e052a252df06c42544f8a09111" style="width: 100.0%; height: 100.0%;">Mexican: 2 wins German: 1 wins Australian: 1 wins British: 1 wins Finnish: 1 wins</div>`)[0];
+                popup_276d38d729b07c74b51b304d78574e1a.setContent(html_1e3c24e052a252df06c42544f8a09111);
+            
+        
+
+        marker_41841beeabf3d94d7e3a8104ec6b8b2c.bindPopup(popup_276d38d729b07c74b51b304d78574e1a)
+        ;
+
+        
+    
+    
+            var marker_0f513ad06ed83c97ad5f846c92d94cad = L.marker(
+                [25.3, 51.533333333],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_0fa73eca534bad61e07e01245235888a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f513ad06ed83c97ad5f846c92d94cad.setIcon(icon_0fa73eca534bad61e07e01245235888a);
+        
+    
+        var popup_6c77e2c6bd88bc87fdcd1880f1da39fa = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_d5b59840786559447c2e0f933ea0e409 = $(`<div id="html_d5b59840786559447c2e0f933ea0e409" style="width: 100.0%; height: 100.0%;">British: 1 wins</div>`)[0];
+                popup_6c77e2c6bd88bc87fdcd1880f1da39fa.setContent(html_d5b59840786559447c2e0f933ea0e409);
+            
+        
+
+        marker_0f513ad06ed83c97ad5f846c92d94cad.bindPopup(popup_6c77e2c6bd88bc87fdcd1880f1da39fa)
+        ;
+
+        
+    
+    
+            var marker_860e8b23a61e7db1d4b7ed4d4b128e15 = L.marker(
+                [24.65, 46.71],
+                {}
+            ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+        
+    
+            var icon_8f0f053ef51f7a034945090fe152b02a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_860e8b23a61e7db1d4b7ed4d4b128e15.setIcon(icon_8f0f053ef51f7a034945090fe152b02a);
+        
+    
+        var popup_420fbd76f186ad3fd2b1c986e67ab6a6 = L.popup({"maxWidth": "100%", "minWidth": 1000});
+
+        
+            
+                var html_9841c0ebd17faecd5e76dedd79755d5f = $(`<div id="html_9841c0ebd17faecd5e76dedd79755d5f" style="width: 100.0%; height: 100.0%;">British: 1 wins Dutch: 1 wins Mexican: 1 wins</div>`)[0];
+                popup_420fbd76f186ad3fd2b1c986e67ab6a6.setContent(html_9841c0ebd17faecd5e76dedd79755d5f);
+            
+        
+
+        marker_860e8b23a61e7db1d4b7ed4d4b128e15.bindPopup(popup_420fbd76f186ad3fd2b1c986e67ab6a6)
+        ;
+
+        
+    
+    
+       
+       L.Control.CustomControl = L.Control.extend({
+           onAdd: function(map) {
+               let div = L.DomUtil.create('div');
+               div.innerHTML = `
+<style>
+   th, td {
+       font-size: 20px;
+   }
+</style>
+<table class="dataframe">
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>British</td>
+      <td>23</td>
+      <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAABaCAIAAACe4euXAAAD8klEQVR4nO3dUXKcMBBFUUhlR/Ka5DUNa4I1kY/GE2aGNg1I6ifxzl+cDIjmFhVX2aIfQwyP2IXQHTdN0zBMwzSd+Gwx8/h4+8rUf504TpjHt6/0X98n11RECOERQ3i7s8MwDUO3e8dCCI/Yj114/qHJRG4Yx/UspISfOD7+4ijYRG4VR6osxGscyj+yA0zkJnGkzUJsxfHrByygEmk+jhxZCD0Ow4d/B5JIw3Hky0L0YwhJDqRxT6TJOHJnIfp5npMf9JNjIo3FUSYL0c/znPUEay6JNBNHDCGWykKs4sh/MlE4kQbiKPm0WOtjfBTuURRLpOo4yj8thNydvgux82uzQCKVxoFwR5Y4cBaUXHVx4NyFlzjQFpdERXGgTX4jDsyFnlZFHJjTVuNYnRdu0YeAx4E84Z04VmsAvYBdsHHgT9UUx2o90BezCTCOWiZ5IA5Ry4U9QcVR1/QOxyEqukiQOCqa2NPJOEQVF+weRxVT2nQpDgF+8Y5xgE9mV4I4BOwgXOKAncYhyeIQgEMpHAfgBE5LHIeAGlCxOKCuOokscQiQYRWIA+RKk8sYh3AfXNY43K/uxGftsschHIf4ftJ0cWwcvJUsRKE4hFcib1LF8aKtLETROIR7IonjaDEL8fEDxjeQ5cnRoj/eCyBcjINUjINUjINUjINUe1sw0I3xyUEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEqxkEq/t6KFX9vheg/xkEqxkEqxkEqxkGqv+XfYre9BYPRNE3D0A17mxGErosxxNK7S/zmwsrdtmDw37zFKF0Wnt/KVpWI67ZPRtcGWnTbJ6NKEnHaMM4oxRAdNowzgk+k+FaTRukG57bVpBFwIgU3qTVKPSznTWqNIBMpsr21UZ4BQWxvbQSWSOaN8Y1yDgVoY3wjmESyvVLDKP8g4F6pYQSQSIaX8RiVunjQl/EYuSaS9DVeRmUv2D2O5eP1TOwp0QsAjTwuEiSO5SBVTe/yq0ON/B6PUHEsh6pkkhdeOmzk/R8rwDiWA8JP9dTryo28sxCwcSyHBZ6wGgfyog8Bj2M5OOS0N+LAXOhpVcSxnAJs8i9xoC0uiYriWE4EcxeWOHAWlFx1cSynA7gjfYyP6L2IrCqNQ8QQHO/O2d94qyELUXUcy6mdniLH46gnC9FAHKL8U+RIHLVlIZqJY1lGwaeILY5pmr6HbvfWhi7E2MFkIRqLQ1xNxHY39+Ko82mx1mQcIvdTRI+j/ixEw3GIfIlsxdFKFqL5OESORF7jaCsLcZM4RNpEfuJoMQtxqzhEqkT6eRzr/U7E4oZxiOvf0fwDq5rbY3LOM30AAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>German</td>
+      <td>6</td>
+      <td><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAABaCAIAAACe4euXAAAAy0lEQVR4nO3bsQ2AMBAEQYzoiGrpiZ5MBRvbEjMVXLDSR38cAAAAAAAAAAAAAAAAAAAA8BfjWb2AbV336gVs61w9gH2JgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQO0pieZQljvqsnsCtnhSQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJgyQOkjhI4iCJg/QBld0EQT08NCcAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Mexican</td>
+      <td>1</td>
+      <td><img src="data:image/png;base64,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"></td>
+    </tr>
+  </tbody>
+</table>
+`;
+               return div;
+           }, 
+           onRemove: function(map) {}
+       });
+       
+       L.control.customControl = function(opts) {
+           return new L.Control.CustomControl(opts);
+       }
+       
+       L.control.customControl(
+           { position: "topright" }
+       ).addTo(map_051f465a70c5df3d639f949dcbbe8add);
+   
+       
+</script>
+</html>
